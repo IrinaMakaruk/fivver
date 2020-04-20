@@ -109,4 +109,8 @@
         background-color: black !important;
     }
    
-    
+    .nav-link {
+        color: white !important;
+        font-weight: bold !important;
+        padding-right: 1em !important;
+    }
