@@ -32,9 +32,6 @@
         color: #f2f2f2;
     }
     
-    .nav-icons-container {
-        display: flex;
-        justify-content: center;
     }
     
     .search-icon-container {
@@ -66,8 +63,9 @@
     }
     
     @media (min-width: 992px) and (max-width: 1155px) {
+        
         .nav-link {
-            padding: 0.5rem !important;
+            font-size: 14px;
         }
         .nav-icons-container {
             margin-right: 0.5rem;
@@ -89,7 +87,7 @@
         .search-icon-container:hover input,
         .search-icon-container input:focus {
             display: block;
-            width: 180px;
+            width: 170px;
             margin-left: 0px;
             padding-left: 10px;
             border-radius: .25rem 0 0 .25rem;
@@ -108,9 +106,9 @@
     .bg-black {
         background-color: black !important;
     }
-   
-    .nav-link {
-        color: white !important;
-        font-weight: bold !important;
-        padding-right: 1em !important;
-    }
+        .nav-link {
+            color: white !important;
+            font-weight: bold !important;
+            padding-right: 1em !important;
+        }
+ 
