@@ -1,5 +1,5 @@
-const hideIconsContainer = () => $('.social-icons-container').hide();
-const showIconsContainer = () => $('.social-icons-container').delay(200).fadeIn(0);
+const hideIconsContainer = () => $('.nav-icons-container').hide();
+const showIconsContainer = () => $('.nav-icons-container').delay(200).fadeIn(0);
 
 
 (($) => {
